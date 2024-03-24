@@ -1,0 +1,7 @@
+{
+    "mean_value_imputation": false,
+    "drop_missing": true,
+    "replace_categorical":  true,
+    "cat_to_int": true,
+    "cat_to_one_hot": false
+}

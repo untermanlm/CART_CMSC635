@@ -1,0 +1,3 @@
+# DB file
+*.src.db
+*.src.secrets
