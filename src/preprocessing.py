@@ -1,8 +1,6 @@
 import json
 import pandas as pd
 import numpy as np
-from sklearn.tree import DecisionTreeClassifier
-
 
 def cat_to_int(X: pd.DataFrame):
     cat_columns = X.select_dtypes(['category']).columns
@@ -50,8 +48,6 @@ def main():
                           'Dramatically increases dimensionality!')
 
     adult_income.to_csv(clean_dataset_filename, index=False)
-    # X = adult_income.iloc[:, 0:-1]
-    # y = adult_income.iloc[:, -1].to_numpy()
     print('Preprocessing done!')
 
 
